@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9214F7861F417EB700E9581A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214F7851F417EB700E9581A /* AppDelegate.swift */; };
+		9214F7881F417EB700E9581A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214F7871F417EB700E9581A /* ViewController.swift */; };
+		9214F78B1F417EB700E9581A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9214F7891F417EB700E9581A /* Main.storyboard */; };
+		9214F78E1F417EB700E9581A /* GRGeneraterAndReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9214F78C1F417EB700E9581A /* GRGeneraterAndReader.xcdatamodeld */; };
+		9214F7901F417EB700E9581A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9214F78F1F417EB700E9581A /* Assets.xcassets */; };
+		9214F7931F417EB700E9581A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9214F7911F417EB700E9581A /* LaunchScreen.storyboard */; };
+		9214F79E1F417EB700E9581A /* GRGeneraterAndReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214F79D1F417EB700E9581A /* GRGeneraterAndReaderTests.swift */; };
+		9214F7A91F417EB800E9581A /* GRGeneraterAndReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9214F7A81F417EB800E9581A /* GRGeneraterAndReaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9214F79A1F417EB700E9581A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9214F77A1F417EB700E9581A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9214F7811F417EB700E9581A;
+			remoteInfo = GRGeneraterAndReader;
+		};
+		9214F7A51F417EB700E9581A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9214F77A1F417EB700E9581A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9214F7811F417EB700E9581A;
+			remoteInfo = GRGeneraterAndReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9214F7821F417EB700E9581A /* GRGeneraterAndReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRGeneraterAndReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9214F7851F417EB700E9581A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9214F7871F417EB700E9581A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9214F78A1F417EB700E9581A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9214F78D1F417EB700E9581A /* GRGeneraterAndReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GRGeneraterAndReader.xcdatamodel; sourceTree = "<group>"; };
+		9214F78F1F417EB700E9581A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9214F7921F417EB700E9581A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9214F7941F417EB700E9581A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9214F7991F417EB700E9581A /* GRGeneraterAndReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRGeneraterAndReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9214F79D1F417EB700E9581A /* GRGeneraterAndReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRGeneraterAndReaderTests.swift; sourceTree = "<group>"; };
+		9214F79F1F417EB700E9581A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9214F7A41F417EB700E9581A /* GRGeneraterAndReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRGeneraterAndReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9214F7A81F417EB800E9581A /* GRGeneraterAndReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRGeneraterAndReaderUITests.swift; sourceTree = "<group>"; };
+		9214F7AA1F417EB800E9581A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9214F77F1F417EB700E9581A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9214F7961F417EB700E9581A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9214F7A11F417EB700E9581A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9214F7791F417EB700E9581A = {
+			isa = PBXGroup;
+			children = (
+				9214F7841F417EB700E9581A /* GRGeneraterAndReader */,
+				9214F79C1F417EB700E9581A /* GRGeneraterAndReaderTests */,
+				9214F7A71F417EB800E9581A /* GRGeneraterAndReaderUITests */,
+				9214F7831F417EB700E9581A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9214F7831F417EB700E9581A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9214F7821F417EB700E9581A /* GRGeneraterAndReader.app */,
+				9214F7991F417EB700E9581A /* GRGeneraterAndReaderTests.xctest */,
+				9214F7A41F417EB700E9581A /* GRGeneraterAndReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9214F7841F417EB700E9581A /* GRGeneraterAndReader */ = {
+			isa = PBXGroup;
+			children = (
+				9214F7851F417EB700E9581A /* AppDelegate.swift */,
+				9214F7871F417EB700E9581A /* ViewController.swift */,
+				9214F7891F417EB700E9581A /* Main.storyboard */,
+				9214F78F1F417EB700E9581A /* Assets.xcassets */,
+				9214F7911F417EB700E9581A /* LaunchScreen.storyboard */,
+				9214F7941F417EB700E9581A /* Info.plist */,
+				9214F78C1F417EB700E9581A /* GRGeneraterAndReader.xcdatamodeld */,
+			);
+			path = GRGeneraterAndReader;
+			sourceTree = "<group>";
+		};
+		9214F79C1F417EB700E9581A /* GRGeneraterAndReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9214F79D1F417EB700E9581A /* GRGeneraterAndReaderTests.swift */,
+				9214F79F1F417EB700E9581A /* Info.plist */,
+			);
+			path = GRGeneraterAndReaderTests;
+			sourceTree = "<group>";
+		};
+		9214F7A71F417EB800E9581A /* GRGeneraterAndReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9214F7A81F417EB800E9581A /* GRGeneraterAndReaderUITests.swift */,
+				9214F7AA1F417EB800E9581A /* Info.plist */,
+			);
+			path = GRGeneraterAndReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9214F7811F417EB700E9581A /* GRGeneraterAndReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9214F7AD1F417EB800E9581A /* Build configuration list for PBXNativeTarget "GRGeneraterAndReader" */;
+			buildPhases = (
+				9214F77E1F417EB700E9581A /* Sources */,
+				9214F77F1F417EB700E9581A /* Frameworks */,
+				9214F7801F417EB700E9581A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRGeneraterAndReader;
+			productName = GRGeneraterAndReader;
+			productReference = 9214F7821F417EB700E9581A /* GRGeneraterAndReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9214F7981F417EB700E9581A /* GRGeneraterAndReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9214F7B01F417EB800E9581A /* Build configuration list for PBXNativeTarget "GRGeneraterAndReaderTests" */;
+			buildPhases = (
+				9214F7951F417EB700E9581A /* Sources */,
+				9214F7961F417EB700E9581A /* Frameworks */,
+				9214F7971F417EB700E9581A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9214F79B1F417EB700E9581A /* PBXTargetDependency */,
+			);
+			name = GRGeneraterAndReaderTests;
+			productName = GRGeneraterAndReaderTests;
+			productReference = 9214F7991F417EB700E9581A /* GRGeneraterAndReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9214F7A31F417EB700E9581A /* GRGeneraterAndReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9214F7B31F417EB800E9581A /* Build configuration list for PBXNativeTarget "GRGeneraterAndReaderUITests" */;
+			buildPhases = (
+				9214F7A01F417EB700E9581A /* Sources */,
+				9214F7A11F417EB700E9581A /* Frameworks */,
+				9214F7A21F417EB700E9581A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9214F7A61F417EB700E9581A /* PBXTargetDependency */,
+			);
+			name = GRGeneraterAndReaderUITests;
+			productName = GRGeneraterAndReaderUITests;
+			productReference = 9214F7A41F417EB700E9581A /* GRGeneraterAndReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9214F77A1F417EB700E9581A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Apogee;
+				TargetAttributes = {
+					9214F7811F417EB700E9581A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZY3B78M368;
+						ProvisioningStyle = Automatic;
+					};
+					9214F7981F417EB700E9581A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZY3B78M368;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9214F7811F417EB700E9581A;
+					};
+					9214F7A31F417EB700E9581A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZY3B78M368;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9214F7811F417EB700E9581A;
+					};
+				};
+			};
+			buildConfigurationList = 9214F77D1F417EB700E9581A /* Build configuration list for PBXProject "GRGeneraterAndReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9214F7791F417EB700E9581A;
+			productRefGroup = 9214F7831F417EB700E9581A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9214F7811F417EB700E9581A /* GRGeneraterAndReader */,
+				9214F7981F417EB700E9581A /* GRGeneraterAndReaderTests */,
+				9214F7A31F417EB700E9581A /* GRGeneraterAndReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9214F7801F417EB700E9581A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9214F7931F417EB700E9581A /* LaunchScreen.storyboard in Resources */,
+				9214F7901F417EB700E9581A /* Assets.xcassets in Resources */,
+				9214F78B1F417EB700E9581A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9214F7971F417EB700E9581A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9214F7A21F417EB700E9581A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9214F77E1F417EB700E9581A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9214F7881F417EB700E9581A /* ViewController.swift in Sources */,
+				9214F7861F417EB700E9581A /* AppDelegate.swift in Sources */,
+				9214F78E1F417EB700E9581A /* GRGeneraterAndReader.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9214F7951F417EB700E9581A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9214F79E1F417EB700E9581A /* GRGeneraterAndReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9214F7A01F417EB700E9581A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9214F7A91F417EB800E9581A /* GRGeneraterAndReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9214F79B1F417EB700E9581A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9214F7811F417EB700E9581A /* GRGeneraterAndReader */;
+			targetProxy = 9214F79A1F417EB700E9581A /* PBXContainerItemProxy */;
+		};
+		9214F7A61F417EB700E9581A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9214F7811F417EB700E9581A /* GRGeneraterAndReader */;
+			targetProxy = 9214F7A51F417EB700E9581A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9214F7891F417EB700E9581A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9214F78A1F417EB700E9581A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9214F7911F417EB700E9581A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9214F7921F417EB700E9581A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9214F7AB1F417EB800E9581A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9214F7AC1F417EB800E9581A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9214F7AE1F417EB800E9581A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZY3B78M368;
+				INFOPLIST_FILE = GRGeneraterAndReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATG.GRGeneraterAndReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9214F7AF1F417EB800E9581A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZY3B78M368;
+				INFOPLIST_FILE = GRGeneraterAndReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATG.GRGeneraterAndReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9214F7B11F417EB800E9581A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZY3B78M368;
+				INFOPLIST_FILE = GRGeneraterAndReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATG.GRGeneraterAndReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRGeneraterAndReader.app/GRGeneraterAndReader";
+			};
+			name = Debug;
+		};
+		9214F7B21F417EB800E9581A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZY3B78M368;
+				INFOPLIST_FILE = GRGeneraterAndReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATG.GRGeneraterAndReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRGeneraterAndReader.app/GRGeneraterAndReader";
+			};
+			name = Release;
+		};
+		9214F7B41F417EB800E9581A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZY3B78M368;
+				INFOPLIST_FILE = GRGeneraterAndReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATG.GRGeneraterAndReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GRGeneraterAndReader;
+			};
+			name = Debug;
+		};
+		9214F7B51F417EB800E9581A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZY3B78M368;
+				INFOPLIST_FILE = GRGeneraterAndReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATG.GRGeneraterAndReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GRGeneraterAndReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9214F77D1F417EB700E9581A /* Build configuration list for PBXProject "GRGeneraterAndReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9214F7AB1F417EB800E9581A /* Debug */,
+				9214F7AC1F417EB800E9581A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9214F7AD1F417EB800E9581A /* Build configuration list for PBXNativeTarget "GRGeneraterAndReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9214F7AE1F417EB800E9581A /* Debug */,
+				9214F7AF1F417EB800E9581A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9214F7B01F417EB800E9581A /* Build configuration list for PBXNativeTarget "GRGeneraterAndReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9214F7B11F417EB800E9581A /* Debug */,
+				9214F7B21F417EB800E9581A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9214F7B31F417EB800E9581A /* Build configuration list for PBXNativeTarget "GRGeneraterAndReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9214F7B41F417EB800E9581A /* Debug */,
+				9214F7B51F417EB800E9581A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9214F78C1F417EB700E9581A /* GRGeneraterAndReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9214F78D1F417EB700E9581A /* GRGeneraterAndReader.xcdatamodel */,
+			);
+			currentVersion = 9214F78D1F417EB700E9581A /* GRGeneraterAndReader.xcdatamodel */;
+			path = GRGeneraterAndReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9214F77A1F417EB700E9581A /* Project object */;
+}

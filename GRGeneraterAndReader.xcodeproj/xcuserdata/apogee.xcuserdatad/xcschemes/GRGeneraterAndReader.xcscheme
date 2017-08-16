@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9214F7811F417EB700E9581A"
+               BuildableName = "GRGeneraterAndReader.app"
+               BlueprintName = "GRGeneraterAndReader"
+               ReferencedContainer = "container:GRGeneraterAndReader.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9214F7981F417EB700E9581A"
+               BuildableName = "GRGeneraterAndReaderTests.xctest"
+               BlueprintName = "GRGeneraterAndReaderTests"
+               ReferencedContainer = "container:GRGeneraterAndReader.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9214F7A31F417EB700E9581A"
+               BuildableName = "GRGeneraterAndReaderUITests.xctest"
+               BlueprintName = "GRGeneraterAndReaderUITests"
+               ReferencedContainer = "container:GRGeneraterAndReader.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9214F7811F417EB700E9581A"
+            BuildableName = "GRGeneraterAndReader.app"
+            BlueprintName = "GRGeneraterAndReader"
+            ReferencedContainer = "container:GRGeneraterAndReader.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9214F7811F417EB700E9581A"
+            BuildableName = "GRGeneraterAndReader.app"
+            BlueprintName = "GRGeneraterAndReader"
+            ReferencedContainer = "container:GRGeneraterAndReader.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9214F7811F417EB700E9581A"
+            BuildableName = "GRGeneraterAndReader.app"
+            BlueprintName = "GRGeneraterAndReader"
+            ReferencedContainer = "container:GRGeneraterAndReader.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
